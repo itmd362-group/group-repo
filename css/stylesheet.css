@@ -73,6 +73,10 @@
     border-radius: 5px;
     box-sizing: border-box;
   }
+  
+  #signup input[type=submit] {
+    width: 100%;
+  }
 
 	label {
 		display: inline-block;
