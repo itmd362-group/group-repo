@@ -65,17 +65,21 @@
 
   #signup input[type=text] {
     text-align: center;
-    width: 100%;
+    width: 90%;
     padding: 20px 20px;
-    margin: 10px 0;
-    display: inline-block;
+    margin: 20px auto;
+    display: block;
     border: 3px solid #BAD4FF;
     border-radius: 5px;
     box-sizing: border-box;
   }
   
   #signup input[type=submit] {
-    width: 100%;
+    width: 40%;
+    background-color: #BAD4FF;
+    color: black;
+    display: block;
+    margin: 10px auto;
   }
 
 	label {
