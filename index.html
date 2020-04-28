@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Home | ISUD</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	</head>
-	<body>
-		<div id="box">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | ISUD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Baloo+Tammudu+2&family=Girassol&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
 
-			<h1>The International Society for Universal Dialogue</h1>
+<body>
+  <div id="title_box">
+    <h1>The International Society for Universal Dialogue</h1>
+  </div>
+    <ul id="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="#">Sign Up</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="slideshow-container">
+		<div class="image-sliderfade fade">
+			<div class="numbertext">1 / 3</div>
+			<img class="homepage" src="media/img1.webp" alt="img1">
 		</div>
-		<ul id="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="#">Sign Up</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-		<div id="imagediv">
-			<img class="homepage" src="media/img1.webp" alt="Lake view">
-			<img class="homepage" src="media/img2.webp" alt="Monkey">
-			<img class="homepage" src="media/img3.webp" alt="Pollution">
-			<img class="homepage" src="media/img4.webp" alt="Statue">
+		<div class="image-sliderfade fade">
+			<div class="numbertext">2 / 3</div>
+			<img class="homepage" src="media/img2.webp" alt="img2">
 		</div>
-		<div id="box">
-			<h2>About ISUD</h2>
-			<p>ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.</p>	
+		<div class="image-sliderfade fade">
+			<div class="numbertext">3 / 3</div>
+			<img class="homepage" src="media/img3.webp" alt="img3">
 		</div>
-		<img class="rounded" src="media/logo.jpg" alt="ISUD Logo">
-	</body>
+		<div class="image-sliderfade fade">
+			<div class="numbertext">3 / 3</div>
+			<img class="homepage" src="media/img4.webp" alt="img4">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<div class="centerdiv">
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+    <div id="box">
+      <h2>About ISUD</h2>
+      <p>ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.</p>	
+    </div>
+    <img class="rounded" src="media/logo.JPG" alt="ISUD Logo">
+	<script src="js/javascript.js"></script>
+</body>
 </html>
