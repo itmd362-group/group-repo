@@ -12,7 +12,7 @@ h1 {
 	text-align: center;
 	color: #BAD4FF;
 	font-size:64px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Girassol', cursive;
 	margin-left: 12px;
 	margin-right: 7px;
 	margin-top: 6px;
@@ -23,7 +23,7 @@ h2 {
 	text-align: center;
 	color: #BAD4FF;
 	font-size: 32px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Girassol', cursive;
 	margin-left: 12px;
 	margin-right: 7px;
 	margin-top: 6px;
@@ -31,7 +31,6 @@ h2 {
 }
 
 img.rounded {
-	border-radius: 30%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -43,7 +42,7 @@ img.rounded {
 p {
 	color: #FFFFFF;
 	font-size: 20px;
-	font-family: 'Baloo Paaji 2', cursive;
+	font-family: 'Baloo Tammudu 2', cursive;
 	margin-left: 25px;
 	margin-right: 15px;
 	margin-top: 12px;
@@ -73,7 +72,7 @@ p {
 	padding: 0 30px;
 	font-size: 24px;
 	font-weight: bold;
-	font-family: 'Baloo Paaji 2', cursive;
+	font-family: 'Righteous', cursive;
 	border-left: 2px solid #000;
 	border-right: 2px solid #000;
 }
